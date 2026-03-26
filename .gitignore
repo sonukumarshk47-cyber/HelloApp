@@ -1,0 +1,16 @@
+# VS Code
+.vscode/
+
+# Compiled class files
+*.class
+
+# Other file exclusions
+.DS_Store
+
+# Build folders
+.idea/
+target/
+bin/
+out/
+build/
+dist/
