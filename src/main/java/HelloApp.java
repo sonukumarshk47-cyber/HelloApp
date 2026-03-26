@@ -1,14 +1,15 @@
-public class DisplayNames {
+public class HelloApp {
     public static void main(String[] args) {
-        // 1. Create an array of strings to hold multiple names
-        String[] names = {"Alice", "Bob", "Charlie", "Diana", "Ethan"};
 
-        System.out.println("Displaying all names in the list:");
-        System.out.println("---------------------------------");
-
-        // 2. Use a 'for-each' loop to go through every name in the array
-        for (String name : names) {
-            System.out.println("Hello, " + name + "!");
+        // Check if the array is empty to show a default message
+        if (args.length == 0) {
+            System.out.println("Hello, World!");
+        } else {
+            // Use an Enhanced For Loop (For-each) to handle multiple arguments
+            for (String name : args) {
+                System.out.println("Hello, " + name + "!");
+            }
         }
+
     }
 }
